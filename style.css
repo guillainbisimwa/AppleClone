@@ -1,3 +1,7 @@
+/* GLOBAL CLASSES */
+.d-flex { display: flex; }
+
+/* MAIN TAGS CLASSES */
 main{
     width: 100%;
     background-image: url("images/bg.jpg");
@@ -6,9 +10,15 @@ main{
 
 /* MENU BAR STYLE*/
 #menu {
-    
+    margin: auto;
+    width: 80%;
+    background: rgb(131,135,131);
+    background: linear-gradient(180deg, rgba(131,135,131,1) 0%, rgba(112,112,112,1) 50%, rgba(94,94,94,1) 50%, rgba(113,117,113,1) 100%);
 }
 
 .menu-btn {
-    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    padding: 0 25px;
 }
