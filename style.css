@@ -5,6 +5,7 @@
 /* MAIN TAGS CLASSES */
 body {
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    margin: 0 auto;
 }
 
 main {
@@ -31,7 +32,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 50px;
-    margin: 30px auto;
+    margin: 40px auto;
 }
 
 h2 {
@@ -61,58 +62,66 @@ p {
     display: table-cell;
     width: 100%;
     overflow: hidden;
+    border-right: 0.1rem solid #a7a5a58f;
 }
 
 #menu li:hover {
-    background-color: #393939;
+    background-color: #3e3e3e85;
     /* cursor: pointer; */
 }
 
-.menu-btn {
-   
+.menu-btn a {
+   display: block;
+   width: 100%;
+   height: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+.menu-btn input {
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 11px 0 0 0;
+    width: 80%;
 }
 
 .logo {
     height: 2.6rem;
-    width: 6rem;
-    background: url(images/apple-header.png) no-repeat -1.8rem 0.3rem;
+    background: url(images/apple-header.png) no-repeat -1.3rem 0.3rem;
 }
 
 .store-bg {
     height: 2.6rem;
-    width: 6rem;
-    background: url(images/apple-header.png) no-repeat -1.8rem -1.6rem;
+    background: url(images/apple-header.png) no-repeat -1.3rem -1.6rem;
 }
 
 .mac-bg {
     height: 2.6rem;
-    width: 6rem;
-    background: url(images/apple-header.png) no-repeat -1.8rem -3.5rem;
+    background: url(images/apple-header.png) no-repeat -1.3rem -3.3rem;
 }
 .ipod {
     height: 2.6rem;
-    width: 6rem;
-    background: url(images/apple-header.png) no-repeat -1.8rem -5.3rem;
+    background: url(images/apple-header.png) no-repeat -1.3rem -5.3rem;
 }
 .iphone {
     height: 2.6rem;
-    width: 6rem;
-    background: url(images/apple-header.png) no-repeat -1.8rem -7.2rem;
+    background: url(images/apple-header.png) no-repeat -1.3rem -7.2rem;
 }
 .itunes {
     height: 2.6rem;
-    width: 6rem;
-    background: url(images/apple-header.png) no-repeat -1.8rem -9.0rem;
+    background: url(images/apple-header.png) no-repeat -1.3rem -9.0rem;
 }
 .ipad {
     height: 2.6rem;
-    width: 6rem;
-    background: url(images/apple-header.png) no-repeat -1.8rem -10.9rem;
+    background: url(images/apple-header.png) no-repeat -1.3rem -10.9rem;
 }
 .supports {
     height: 2.6rem;
-    width: 6rem;
-    background: url(images/apple-header.png) no-repeat -1.8rem -12.7rem;
+    background: url(images/apple-header.png) no-repeat -1.3rem -12.7rem;
+}
+
+.search {
+    
 }
 
 /* IMAGES ADS (4 COLUMNS) STYLE */
