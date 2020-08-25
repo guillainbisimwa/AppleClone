@@ -48,6 +48,10 @@ p {
     margin: 10px 0 0 0;
 }
 
+img {
+    vertical-align: text-top;
+}
+
 .gradient-bg {
     background: rgb(131,135,131);
     background: linear-gradient(180deg, rgba(131,135,131,1) 0%, rgba(112,112,112,1) 50%, rgba(94,94,94,1) 50%, rgba(113,117,113,1) 100%);
