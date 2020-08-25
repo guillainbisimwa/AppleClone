@@ -48,12 +48,15 @@ p {
     margin: 10px 0 0 0;
 }
 
+.gradient-bg {
+    background: rgb(131,135,131);
+    background: linear-gradient(180deg, rgba(131,135,131,1) 0%, rgba(112,112,112,1) 50%, rgba(94,94,94,1) 50%, rgba(113,117,113,1) 100%);
+}
+
 /* MENU BAR STYLE*/
 #menu {
     margin: auto;
     width: 80%;
-    background: rgb(131,135,131);
-    background: linear-gradient(180deg, rgba(131,135,131,1) 0%, rgba(112,112,112,1) 50%, rgba(94,94,94,1) 50%, rgba(113,117,113,1) 100%);
     border-radius: 0.4rem;
     padding: 0;
 }
@@ -78,11 +81,23 @@ p {
    margin: 0;
 }
 
-.menu-btn input {
+.menu-btn-search:hover {
+    background: rgb(131,135,131);
+    background: linear-gradient(180deg, rgba(131,135,131,1) 0%, rgba(112,112,112,1) 50%, rgba(94,94,94,1) 50%, rgba(113,117,113,1) 100%);
+}
+
+.menu-btn-search input {
     border-radius: 10px;
-    padding-left: 10px;
-    margin: 11px 0 0 0;
-    width: 80%;
+    padding-left: 25px;
+    margin: 11px 0 0 2px;
+    width: 70%;
+    background: url("images/search-bg.png") no-repeat 0 -0.1rem;
+    color: #fff;
+}
+
+.menu-btn-search input:focus {
+    color: #000;
+    background: url("images/search-bg.png") no-repeat 0 -1.4rem;
 }
 
 .logo {
