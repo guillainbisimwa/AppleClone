@@ -2,10 +2,10 @@
 .d-flex { display: flex; }
 
 /* MAIN TAGS CLASSES */
-main{
+main {
+    padding-top: 5rem;
     width: 100%;
-    background-image: url("images/bg.jpg");
-    )
+    background: url("images/bg.jpg");
 }
 
 /* MENU BAR STYLE*/
@@ -14,11 +14,61 @@ main{
     width: 80%;
     background: rgb(131,135,131);
     background: linear-gradient(180deg, rgba(131,135,131,1) 0%, rgba(112,112,112,1) 50%, rgba(94,94,94,1) 50%, rgba(113,117,113,1) 100%);
+    border-radius: 0.4rem;
+    padding: 0;
+}
+
+#menu li:hover {
+    background-color: #393939;
+    /* cursor: pointer; */
 }
 
 .menu-btn {
     align-items: center;
     justify-content: center;
-    height: 36px;
-    padding: 0 25px;
+    /* height: 36px; */
+    /* padding: 0 25px;*/
+}
+
+.logo {
+    height: 2.6rem;
+    width: 6rem;
+    background: url(images/apple-header.png) no-repeat -1.8rem 0.3rem;
+}
+
+.store-bg {
+    height: 2.6rem;
+    width: 6rem;
+    background: url(images/apple-header.png) no-repeat -1.8rem -1.6rem;
+}
+
+.mac-bg {
+    height: 2.6rem;
+    width: 6rem;
+    background: url(images/apple-header.png) no-repeat -1.8rem -3.5rem;
+}
+.ipod {
+    height: 2.6rem;
+    width: 6rem;
+    background: url(images/apple-header.png) no-repeat -1.8rem -5.3rem;
+}
+.iphone {
+    height: 2.6rem;
+    width: 6rem;
+    background: url(images/apple-header.png) no-repeat -1.8rem -7.2rem;
+}
+.itunes {
+    height: 2.6rem;
+    width: 6rem;
+    background: url(images/apple-header.png) no-repeat -1.8rem -9.0rem;
+}
+.ipad {
+    height: 2.6rem;
+    width: 6rem;
+    background: url(images/apple-header.png) no-repeat -1.8rem -10.9rem;
+}
+.supports {
+    height: 2.6rem;
+    width: 6rem;
+    background: url(images/apple-header.png) no-repeat -1.8rem -12.7rem;
 }
