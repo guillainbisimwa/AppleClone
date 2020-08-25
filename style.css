@@ -53,16 +53,19 @@ h3 {
     padding: 0;
 }
 
+#menu li {
+    display: table-cell;
+    width: 100%;
+    overflow: hidden;
+}
+
 #menu li:hover {
     background-color: #393939;
     /* cursor: pointer; */
 }
 
 .menu-btn {
-    align-items: center;
-    justify-content: center;
-    /* height: 36px; */
-    /* padding: 0 25px;*/
+   
 }
 
 .logo {
