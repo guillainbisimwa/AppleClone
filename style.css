@@ -186,7 +186,7 @@ footer a {
   border-right: 1px solid rgb(204, 204, 204);
 }
 
-#footer-nav-ul span {
+#footer-nav-ul li:last-child {
   padding-left: 2px;
-  vertical-align: text-top;
+  border: none;
 }
