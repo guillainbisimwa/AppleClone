@@ -90,7 +90,7 @@ footer a {
   color: rgb(0, 136, 204);
   text-decoration: none;
 }
-  
+
 .menu-btn a {
   display: block;
   width: 100%;
@@ -122,7 +122,7 @@ footer a {
 }
 
 .itunes {
-  background: url(images/apple-header.png) no-repeat -1.3rem -9.0rem;
+  background: url(images/apple-header.png) no-repeat -1.3rem -9rem;
 }
 
 .ipad {
@@ -141,12 +141,11 @@ footer a {
   background: url("images/search-bg.png") no-repeat 0 -0.1rem;
   color: #fff;
 }
-  
+
 .menu-btn-search input:focus {
   color: #000;
   background: url("images/search-bg.png") no-repeat 0 -1.4rem;
 }
-  
 
 /* IMAGES ADS (4 COLUMNS) STYLE */
 
@@ -183,7 +182,7 @@ footer a {
   width: 49%;
 }
 
-.footer-nav-ul li {
+.footer-nav-li {
   display: inline-block;
   vertical-align: text-top;
   padding: 0 5px;
@@ -191,7 +190,7 @@ footer a {
   border-right: 1px solid rgb(204, 204, 204);
 }
 
-.footer-nav-ul li:last-child {
+.footer-nav-li:last-child {
   padding-left: 2px;
   border: none;
 }
